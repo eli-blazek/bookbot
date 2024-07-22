@@ -3,8 +3,16 @@ def read_book(book_path):
         book_contents = raw_data.read()
     return book_contents
 
+def count_words():
+    data_source = read_book("books/frankenstein.txt")
+    words = data_source.split()
+    return len(words)
+
+def count_chars():
+    pass
 
 def main():
-    print(read_book("books/frankenstein.txt"))
+    print(count_words())
+
 
 main()
