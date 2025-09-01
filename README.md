@@ -1,1 +1,3 @@
-This is a repo for Boot.dev guided project 1 - Bookbot. The above line is needed for evaluation. 
+This is a repo for Boot.dev project 1 - Bookbot. 
+
+This is the legacy version of the project. 
